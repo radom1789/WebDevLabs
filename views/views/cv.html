@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tracy Yang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Tracy Yang professional website">
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <!-- This is for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- This is a font for hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tracy Yang</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Tracy Yang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="views/index.html">Home</a>
+            <a href="../CV.html" class="active">CV</a>
+            <a href="views/contact.html">Contact Me</a>
+            <a href="views/fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Curriculum Vitae</h2>
+        <table>
+            <tr>
+                <th>Name</th><th>Description</th>
+            </tr>
+            <tr>
+                <td>Carnegie Mellon University</td><td>Bachelor of Science in Information Systems - May 2025</td>
+            </tr>
+            <tr>
+                <td>Arkansas School for Mathematics, Sciences, and the Arts</td><td>High School - May 2021</td>
+            </tr>
+        </table>
+        <a href="../static/MyResume.pdf" target="_blank">My Resume - pdf version</a>
+    </div>
+    <footer>
+        <p id="copyYear">Tracy Yang &copy</p>
+    </footer>
+</body>
+</html>
